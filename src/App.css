@@ -1,0 +1,70 @@
+/* Import Dracula theme */
+@import url('https://cdn.jsdelivr.net/npm/dracula-prism/dracula-prism.css');
+
+/* App container */
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #282a36;
+  color: #f8f8f2;
+  padding: 20px;
+}
+
+/* Form */
+form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Input */
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #44475a;
+  color: #f8f8f2;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+/* Button */
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff5555;
+  color: #f8f8f2;
+  cursor: pointer;
+}
+
+/* Todo List */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #44475a;
+  display: flex;
+  align-items: center;
+}
+
+/* Todo text */
+li span {
+  flex-grow: 1;
+}
+
+/* Delete button */
+li button {
+  background-color: #ff5555;
+  color: #f8f8f2;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
